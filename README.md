@@ -12,17 +12,17 @@ Talk to a chatbot about your pdf. Ask questions, get sumarization, insights etc.
 
 ## Screenshots
 
-![App Screenshots](https://github.com/vishnusingh-12/chat-wtih-pdf/blob/main/readme/cbot1.PNG)
+![App Screenshots](https://raw.githubusercontent.com/vishnusingh-12/chat-with-pdf/main/readme/cbot2.PNG)
+![App Screenshots](https://raw.githubusercontent.com/vishnusingh-12/chat-with-pdf/main/readme/cbot.PNG)
 
 
 
 
 ## Deployment
-<pre>git clone  https://github.com/vishnusingh-12/doc-bot
-cd doc-bot
+<pre>git clone  https://github.com/vishnusingh-12/chat-with-pdf
+cd chat-with-pdf
 pip install -r requirements.txt
-python embedding_creation.py
-chainlit run model.py </pre>
+chainlit run main.py </pre>
 
 The model uses GPU with CUDA 11.8 to run for which LlamaCpp has to be configured differently. Follow the below link for reference:
 https://python.langchain.com/docs/integrations/llms/llamacpp
@@ -31,7 +31,7 @@ The model uses a quantized llama 2 model and can also run on cpu with no change 
 
 
 ## Technologies
-<img src="https://github.com/vishnusingh-12/doc-bot/blob/main/readme/docbot.PNG">
+<img src="https://raw.githubusercontent.com/vishnusingh-12/chat-with-pdf/main/readme/chatwithpdf.PNG">
 
 ## Support
 
